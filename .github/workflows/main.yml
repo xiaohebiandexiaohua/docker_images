@@ -29,7 +29,7 @@ jobs:
       with:
         registry: crpi-54xsbu9hf45nb163.cn-beijing.personal.cr.aliyuncs.com
         username: ${{secrets.ALIYUN_USERNAME}}
-        password: ${{secrets.ALIYUN_IMAGE}}
+        password: ${{secrets.ALIYUN_IMAGES}}
         logout: false
  
     # 使用shell命令批量同步所需的镜像到阿里云个人仓库中
